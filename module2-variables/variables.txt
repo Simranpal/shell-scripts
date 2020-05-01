@@ -1,0 +1,9 @@
+can store variables like greeting="hello"
+echo $greeting
+
+and use them in commands
+filename="test.txt"
+ls $filename
+
+filenames="test1.txt test2.txt"
+touch $filenames
