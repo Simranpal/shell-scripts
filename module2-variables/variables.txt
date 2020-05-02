@@ -13,3 +13,20 @@ dont use whitespace around =
 
 if variable already exists, it is asssigned new value
 bash variable have no type, are case sensitive
+
+good habit to use double qoutes "$x"  instead of $x
+
+braces help with distinguishing variable name end
+
+read command to get input into a variable
+
+help & man commands provide doc on the command
+
+DEBUGGING:
+to debug use -x in #! shebang line which prints all lines executed in the script file
+
+to debug some lines use set -x and set +x before,after lines to debug
+Eg:
+set -x
+code
+set +x
