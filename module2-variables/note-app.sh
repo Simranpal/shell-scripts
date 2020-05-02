@@ -6,7 +6,8 @@ date=$(date)
 #get topic
 topic=$1
 
-filename=${topic}notes.txt
+#braces help with variable name start and end
+filename="${topic}notes.txt"
 
 #ask user for input
 read -p "Your Note:" note
