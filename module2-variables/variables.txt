@@ -7,3 +7,9 @@ ls $filename
 
 filenames="test1.txt test2.txt"
 touch $filenames
+
+to get value use prefix $
+dont use whitespace around =
+
+if variable already exists, it is asssigned new value
+bash variable have no type, are case sensitive
