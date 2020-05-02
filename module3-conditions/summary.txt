@@ -1,0 +1,29 @@
+SYNTAX:
+if statment syntax:
+---
+if testcode; then
+    # code here runs
+fi
+---
+
+suntax for if-else:
+---
+if testcode; then
+    # code here runs
+else
+    # else code
+fi
+---
+
+on command line if-else statment:
+if testcode; then successcode; else failcode; fi
+
+use help, man comamnds for help on if syntax
+
+RETURN code
+0 means success, others error
+
+make sure program exits with value
+
+[[ expression ]]
+space arnd expression is important
