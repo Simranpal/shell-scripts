@@ -17,4 +17,4 @@ echo $date: $note >> "$filename"
 
 #print on the command line
 #escape the sigle quotes
-echo Note \'$note\' saved to $filename
+echo "Note '$note' saved to $filename"
