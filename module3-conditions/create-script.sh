@@ -28,4 +28,7 @@ if [[ ! -d $bindir ]]; then
     fi
 fi
 
-exit 0
+#create script with 1 line
+echo '#!/bin/bash' > "$filename"
+#add permission
+chmod u+x "$filename"
